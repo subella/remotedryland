@@ -1,0 +1,19 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+
+<p id = "set"></p>
+<p id = "exercise"></p>
+<p id = "timer"></p>
+
+<script>
+  var name = "{{ name }}";
+  var work_out = {{ work_out|tojson }}
+</script>
+
+<script type="application/json" src="{{ url_for('static', filename = 'work_outs_new.json') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'work_out.js') }}"></script>
