@@ -6,7 +6,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"},
 
     {"name":"Bench Dips",
@@ -15,7 +15,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20"},
 
     {"name":"Med Ball Thrusts",
@@ -24,7 +24,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15 r/l/b"},
 
     {"name":"Med Ball Push Ups",
@@ -33,7 +33,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"12 r/l/b"},
 
     {"name":"Pull Ups",
@@ -42,7 +42,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15 r/l/b"},
 
     {"name":"Med Ball Slams",
@@ -51,7 +51,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20 r/l/b"},
 
     {"name":"Pull Cords",
@@ -60,7 +60,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20 r/l/b"},
 
     {"name":"Chest Pass",
@@ -69,7 +69,7 @@
      "day" :["day1", "day2"],
      "ppl" : 2,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20"},
 
     {"name":"Vasa Trainer",
@@ -78,7 +78,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"10 r/l/b"},
 
     {"name":"Rings",
@@ -87,7 +87,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":":30"},
 
     {"name":"Reverse Push Ups",
@@ -96,7 +96,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20 r/l/b"},
 
     {"name":"Burpees",
@@ -105,7 +105,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"5x(1/2/3) rep per rd"},
 
     {"name":"Jumprope",
@@ -114,7 +114,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"1:00"},
 
     {"name":"Stairs",
@@ -123,7 +123,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"Up and down 2x"},
 
     {"name":"Squat Jumps",
@@ -132,7 +132,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"},
 
     {"name":"Box Jumps",
@@ -141,7 +141,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15 r/l/b"},
 
     {"name":"Broad Jumps",
@@ -150,7 +150,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"10"},
 
     {"name":"Kettle Bell Swings",
@@ -159,7 +159,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20"},
 
     {"name":"Single Leg Jumprope",
@@ -168,7 +168,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":":30 r, :30 l"},
 
     {"name":"Lunges",
@@ -177,7 +177,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20"},
 
     {"name":"Step Ups",
@@ -186,7 +186,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"10 r, 10 l"},
 
     {"name":"Jog",
@@ -195,7 +195,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"1 Lap"},
 
     {"name":"Sprint",
@@ -204,7 +204,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"1 Sprint"},
 
     {"name":"Calf Raises",
@@ -213,7 +213,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":":45"},
 
     {"name":"Double Jumps Jumprope",
@@ -222,7 +222,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"},
 
     {"name":"Broad Jumps",
@@ -231,7 +231,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"10"},
 
     {"name":"Wall Sit",
@@ -240,7 +240,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"1:00"},
 
 
@@ -250,7 +250,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"1",
-     "intr":"60",
+     "intr":"5",
      "reps":"1:00"},
 
 
@@ -260,7 +260,7 @@
      "day" :["day1"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"60 (20s/20m/20f)"},
 
     {"name":"Bicycles",
@@ -269,7 +269,7 @@
      "day" :["day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"60 (20s/20m/20f)"},
 
     {"name":"Planks",
@@ -278,7 +278,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":":45 b/r/l, :15 off"},
 
     {"name":"Side Crunches",
@@ -287,7 +287,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"30 (15r,15l)"},
 
     {"name":"Russian Twists",
@@ -296,7 +296,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":":45"},
 
     {"name":"Supermans",
@@ -305,7 +305,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"30"},
 
     {"name":"Adrians",
@@ -314,7 +314,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"30"},
   
     {"name":"  ",
@@ -323,7 +323,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"10 v-ups, 20 elevated crunches"},
 
     {"name":"",
@@ -332,7 +332,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"1:00 flutter/scissor/hold, 50 crunches"},
 
     {"name":"Rowboats",
@@ -349,7 +349,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"2",
-     "intr":"60",
+     "intr":"5",
      "reps":"1:00"},
 
     {"name":"Leg Lifts",
@@ -358,7 +358,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"2",
-     "intr":"60",
+     "intr":"5",
      "reps":"30 r/l"},
 
     {"name":"Leg Throw Downs",
@@ -367,7 +367,7 @@
      "day" :["day1","day2"],
      "ppl" : 2,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"20"},
 
     {"name":"De-elevated Leg Thrusts",
@@ -376,7 +376,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"},
 
     {"name":"Weighted de-elevated Situps",
@@ -385,7 +385,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"},
 
     {"name":"Windmills",
@@ -394,7 +394,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"60",
+     "intr":"5",
      "reps":"15"}
 
 
