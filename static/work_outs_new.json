@@ -7,6 +7,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"},
 
     {"name":"Bench Dips",
@@ -16,6 +17,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20"},
 
     {"name":"Med Ball Thrusts",
@@ -25,6 +27,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15 r/l/b"},
 
     {"name":"Med Ball Push Ups",
@@ -34,6 +37,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"12 r/l/b"},
 
     {"name":"Pull Ups",
@@ -43,6 +47,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15 r/l/b"},
 
     {"name":"Med Ball Slams",
@@ -52,6 +57,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20 r/l/b"},
 
     {"name":"Pull Cords",
@@ -61,6 +67,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20 r/l/b"},
 
     {"name":"Chest Pass",
@@ -70,6 +77,7 @@
      "ppl" : 2,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20"},
 
     {"name":"Vasa Trainer",
@@ -79,6 +87,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"10 r/l/b"},
 
     {"name":"Rings",
@@ -88,6 +97,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":":30"},
 
     {"name":"Reverse Push Ups",
@@ -97,6 +107,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20 r/l/b"},
 
     {"name":"Burpees",
@@ -106,6 +117,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"5x(1/2/3) rep per rd"},
 
     {"name":"Jumprope",
@@ -115,6 +127,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"1:00"},
 
     {"name":"Stairs",
@@ -124,6 +137,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"Up and down 2x"},
 
     {"name":"Squat Jumps",
@@ -133,6 +147,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"},
 
     {"name":"Box Jumps",
@@ -142,6 +157,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15 r/l/b"},
 
     {"name":"Broad Jumps",
@@ -151,6 +167,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"10"},
 
     {"name":"Kettle Bell Swings",
@@ -160,6 +177,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20"},
 
     {"name":"Single Leg Jumprope",
@@ -169,6 +187,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":":30 r, :30 l"},
 
     {"name":"Lunges",
@@ -178,6 +197,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20"},
 
     {"name":"Step Ups",
@@ -187,6 +207,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"10 r, 10 l"},
 
     {"name":"Jog",
@@ -196,6 +217,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"1 Lap"},
 
     {"name":"Sprint",
@@ -205,6 +227,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"1 Sprint"},
 
     {"name":"Calf Raises",
@@ -214,6 +237,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":":45"},
 
     {"name":"Double Jumps Jumprope",
@@ -223,6 +247,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"},
 
     {"name":"Broad Jumps",
@@ -232,6 +257,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"10"},
 
     {"name":"Wall Sit",
@@ -241,6 +267,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"1:00"},
 
 
@@ -251,6 +278,7 @@
      "ppl" : 1,
      "rnds":"1",
      "intr":"5",
+     "rest":"15",
      "reps":"1:00"},
 
 
@@ -261,6 +289,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"60 (20s/20m/20f)"},
 
     {"name":"Bicycles",
@@ -270,6 +299,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"60 (20s/20m/20f)"},
 
     {"name":"Planks",
@@ -279,6 +309,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":":45 b/r/l, :15 off"},
 
     {"name":"Side Crunches",
@@ -288,6 +319,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"30 (15r,15l)"},
 
     {"name":"Russian Twists",
@@ -297,6 +329,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":":45"},
 
     {"name":"Supermans",
@@ -306,6 +339,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"30"},
 
     {"name":"Adrians",
@@ -315,6 +349,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"30"},
   
     {"name":"  ",
@@ -324,6 +359,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"10 v-ups, 20 elevated crunches"},
 
     {"name":"",
@@ -333,6 +369,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"1:00 flutter/scissor/hold, 50 crunches"},
 
     {"name":"Rowboats",
@@ -341,6 +378,8 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
+     "intr":"5",
+     "rest":"15",
      "reps":"30"},
 
     {"name":"Penguins",
@@ -350,6 +389,7 @@
      "ppl" : 1,
      "rnds":"2",
      "intr":"5",
+     "rest":"15",
      "reps":"1:00"},
 
     {"name":"Leg Lifts",
@@ -359,6 +399,7 @@
      "ppl" : 1,
      "rnds":"2",
      "intr":"5",
+     "rest":"15",
      "reps":"30 r/l"},
 
     {"name":"Leg Throw Downs",
@@ -368,6 +409,7 @@
      "ppl" : 2,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"20"},
 
     {"name":"De-elevated Leg Thrusts",
@@ -377,6 +419,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"},
 
     {"name":"Weighted de-elevated Situps",
@@ -386,6 +429,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"},
 
     {"name":"Windmills",
@@ -395,6 +439,7 @@
      "ppl" : 1,
      "rnds":"3",
      "intr":"5",
+     "rest":"15",
      "reps":"15"}
 
 

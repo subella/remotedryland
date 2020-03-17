@@ -28,6 +28,7 @@ framework = [["warmup_lo", "warmup_up"],
              ] 
 
 work_out = None
+printed_work_out = None
 time_remaining = 0
 current_set = 0
 
@@ -36,7 +37,7 @@ def update():
     workOutStarted = False
     time = datetime.datetime.now()
     time += datetime.timedelta(minutes = 10)
-    return render_template('work_out.html', name="Berhta", work_out=work_out, current_set=current_set, time_remaining=time_remaining)
+    return render_template('work_out.html', name="Berhta", work_out=work_out, printed_work_out=printed_work_out, current_set=current_set, time_remaining=time_remaining)
 
     if workOutStarted:
         return render_template('template.html', name="Berhta")
@@ -46,18 +47,28 @@ def update():
 def generateWorkout():
     jsondata = open('./static/work_outs_new.json').read()
     global work_out
+    global printed_work_out
     work_out_data = json.loads(jsondata)['workouts']
     work_out = []
+    printed_work_out = framework.copy()
 
-    for exercise in framework:
+    rest = {"name":"Rest", "intr":10, "reps":10} 
+    for exercise in range(len(framework)):
         sets=[] 
-        for type_ in exercise:
-            pool = [i for i in work_out_data if i["type"] == type_ and i not in work_out]
-            sets.append(random.choice(pool))
+        for type_ in range(len(framework[exercise])):
+            pool = [i for i in work_out_data if i["type"] == framework[exercise][type_]  and i not in work_out]
+            if len(pool) > 0:
+                choice = random.choice(pool)
+                sets.append(choice)
+                printed_work_out[exercise][type_]= choice
 
-        for k in range(int(sets[0]["rnds"])):
-            for p in range(len(sets)):
-                work_out.append(sets[p])         
+        if len(sets) >0: 
+            for k in range(int(sets[0]["rnds"])):
+                for p in range(len(sets)):
+                    work_out.append(sets[p])         
+                    rest["intr"] = sets[p]["rest"]
+                    rest["reps"] = ":"+sets[p]["rest"]
+                    work_out.append(rest)         
 
     print (work_out)
     playWorkout(work_out)
@@ -72,7 +83,7 @@ def playWorkout(work_out):
         
 
 def countdown(set_time):
-    for sec in range(set_time, -1, -1):
+    for sec in range(set_time, 0, -1):
         global time_remaining
         time_remaining = sec
         time.sleep(1)

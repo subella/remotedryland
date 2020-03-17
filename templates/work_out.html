@@ -29,14 +29,19 @@ body, html {height: 100%}
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <h1 class="w3-jumbo" id="timer"></h1>
     <p class="w3-large w3-center" id="next"></p>
+    <p class="w3-large w3-left" id="print"></p>
   </div>
 </div>
+
+<button onclick="printWorkout()">Click me</button>
 
 <script>
   var name = "{{ name }}";
   var current_set = "{{ current_set }}";
   var time_remaining = "{{ time_remaining }}";
   var work_out = {{ work_out|tojson }}
+  var work_out = {{ work_out|tojson }}
+  var printed_work_out = {{ printed_work_out|tojson }}
 </script>
 
 <script type="application/json" src="{{ url_for('static', filename = 'work_outs_new.json') }}"></script>
