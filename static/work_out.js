@@ -37,9 +37,50 @@ function printWorkout(){
       set += printed_work_out[i][j].reps + " " +  printed_work_out[i][j].name + "<br>";
     }
   }
-    document.getElementById("print").innerHTML = set; 
+    var newWindow = window.open();
+    newWindow.document.write(set);
+    //document.getElementById("print").innerHTML = set; 
 }
 
-window.onload = playWorkout;
-window.setInterval(displayTimer, 1000);
+console.log(work_out_started);
+if (work_out_started == "True"){
+  window.onload = playWorkout;
+  window.setInterval(displayTimer, 1000);
+}else{
 
+  // Set the date we're counting down to
+  var countDownDate = new Date();
+  countDownDate.setHours(work_out_time["hours"]);
+  countDownDate.setMinutes(work_out_time["minutes"]);
+  countDownDate.setSeconds(work_out_time["seconds"]);
+
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date();
+      if (now > countDownDate) { // too late, go to tomorrow
+        countDownDate.setDate(countDownDate.getDate());
+      }
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        location.reload();
+      }
+      // Output the result in an element with id="demo"
+      document.getElementById("set").innerHTML = "Next Workout in: "
+      document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text 
+  }, 1000);
+}

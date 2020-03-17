@@ -26,25 +26,26 @@ framework = [["warmup_lo", "warmup_up"],
              ["big_bertha"],
              ["main_ob"],
              ] 
+hour = 18
+minute = 35
+second = 0
 
 work_out = None
 printed_work_out = None
 time_remaining = 0
 current_set = 0
+work_out_started = False
+work_out_time = {"hours":hour, "minutes":minute, "seconds": second}
 
 @app.route('/')
 def update():
     workOutStarted = False
     time = datetime.datetime.now()
     time += datetime.timedelta(minutes = 10)
-    return render_template('work_out.html', name="Berhta", work_out=work_out, printed_work_out=printed_work_out, current_set=current_set, time_remaining=time_remaining)
-
-    if workOutStarted:
-        return render_template('template.html', name="Berhta")
-    else:
-        return render_template('countdown.html', time=str(time))
+    return render_template('work_out.html', name="Berhta", work_out=work_out, printed_work_out=printed_work_out, current_set=current_set, time_remaining=time_remaining, work_out_started=work_out_started, work_out_time = work_out_time)
 
 def generateWorkout():
+    print ("Generating")
     jsondata = open('./static/work_outs_new.json').read()
     global work_out
     global printed_work_out
@@ -70,16 +71,17 @@ def generateWorkout():
                     rest["reps"] = ":"+sets[p]["rest"]
                     work_out.append(rest)         
 
-    print (work_out)
-    playWorkout(work_out)
 
-def playWorkout(work_out):
+def playWorkout():
+    print ("Playing")
+    global work_out_started
+    work_out_started = True
     global current_set
     for i in range(len(work_out)):
         current_set = i
-        
         print (work_out[i]["name"])
         countdown(int(work_out[i]["intr"]))
+    work_out_started = False
         
 
 def countdown(set_time):
@@ -93,9 +95,14 @@ def countdown(set_time):
 
 if __name__ == '__main__':
     sched = BackgroundScheduler()
-    trigger = OrTrigger([
-    CronTrigger(hour='*', minute='*', second='*'),
+    generateWorkout()
+    gen_trigger = OrTrigger([
+    CronTrigger(hour=hour, minute=minute, second=second),
      ])
-    sched.add_job(generateWorkout, trigger)
+    play_trigger = OrTrigger([
+    CronTrigger(hour=hour, minute=minute, second=second),
+     ])
+    #sched.add_job(generateWorkout, gen_trigger)
+    sched.add_job(playWorkout, play_trigger)
     sched.start()
     app.run(debug=True, use_reloader=False)
