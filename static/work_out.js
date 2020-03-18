@@ -1,7 +1,18 @@
-var count = time_remaining-1;
+var count = time_remaining;
+var set = current_set;
 
 async function playWorkout(){
-  for (var set = current_set; set < work_out.length; set++){
+  if (set >= work_out.length){
+    window.clearInterval(interval);
+    document.getElementById("set").innerHTML = "Work Out Completed!"
+    document.getElementById("timer").innerHTML = "";
+    document.getElementById("next").innerHTML = "";
+    await new Promise(r => setTimeout(r, 5000));
+    countDownDate.setDate(countDownDate.getDate()+1);
+    countdown();
+      return;
+    }
+
     console.log("Time Remaining: " +time_remaining);
     document.getElementById("set").innerHTML = work_out[set]["reps"] + " " +work_out[set]["name"];
     if (set < work_out.length - 1){
@@ -12,25 +23,22 @@ async function playWorkout(){
     if (set != current_set){
       time_remaining = work_out[set]["intr"];
     }
-    count = time_remaining -1;
-    await new Promise(r => setTimeout(r, time_remaining*1000));
-  }
-    window.clearInterval(interval);
-    document.getElementById("set").innerHTML = "Work Out Completed!"
-    document.getElementById("timer").innerHTML = "";
-    document.getElementById("next").innerHTML = "";
-    await new Promise(r => setTimeout(r, 5*1000));
-    countDownDate.setDate(countDownDate.getDate()+1);
-    countdown();
+    count = time_remaining;
+
+    
 
 }
 
-function displayTimer(){
+function displayTimer(callback){
+
+    if (count > 0){
+      count--;
+    }else{
+      set++;
+      callback();
+    }
     console.log("Count: " + count)
     document.getElementById("timer").innerHTML = count;
-    if (count >= 0){
-      count--;
-    }
     
 }
 
@@ -90,11 +98,14 @@ function countdown(){
   }, 1000);
 
 }
+function test(){
+  console.log("calledback");
+}
 
 console.log(work_out_started);
 if (work_out_started == "True"){
   window.onload = playWorkout;
-  var interval = window.setInterval(displayTimer, 1000);
+  var interval = window.setInterval(function(){displayTimer(playWorkout)}, 1000);
 }else{
-  countdown()
+  countdown();
 }

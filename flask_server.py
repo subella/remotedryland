@@ -26,8 +26,8 @@ framework = [["warmup_lo", "warmup_up"],
              ["big_bertha"],
              ["main_ob"],
              ] 
-hour = 21
-minute = 44
+hour = 1
+minute = 0
 second = 0
 
 work_out = None
@@ -79,14 +79,16 @@ def playWorkout():
     global current_set
     for i in range(len(work_out)):
         current_set = i
+        print (work_out[current_set]["name"])
         countdown(int(work_out[i]["intr"]))
     time.sleep(5)
     work_out_started = False
         
 
 def countdown(set_time):
-    for sec in range(set_time, 0, -1):
+    for sec in range(set_time, -1, -1):
         global time_remaining
+        print (sec)
         time_remaining = sec
         time.sleep(1)
     
