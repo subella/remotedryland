@@ -26,7 +26,7 @@ framework = [["warmup_lo", "warmup_up"],
              ["big_bertha"],
              ["main_ob"],
              ] 
-hour = 1
+hour = 17
 minute = 0
 second = 0
 

@@ -61,11 +61,14 @@ function printWorkout(){
 var countDownDate = new Date();
 function countdown(){
 
-  // Set the date we're counting down to
+  // uet the date we're counting down to
   countDownDate.setHours(work_out_time["hours"]);
   countDownDate.setMinutes(work_out_time["minutes"]);
   countDownDate.setSeconds(work_out_time["seconds"]);
-  var now = new Date();
+  console.log(countDownDate);
+  var now = new Date(new Date().toUTCString());
+  countDownDate = new Date(countDownDate.toUTCString());
+  console.log(now);
   if (now > countDownDate) { // too late, go to tomorrow
     countDownDate.setDate(countDownDate.getDate()+1);
   }
@@ -75,7 +78,7 @@ function countdown(){
   var x = setInterval(function() {
 
       // Get today's date and time
-      var now = new Date();
+      var now = new Date(new Date().toUTCString());
       if (now > countDownDate) { // too late, go to tomorrow
         location.reload();
       }
