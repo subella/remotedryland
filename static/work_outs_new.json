@@ -6,7 +6,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"},
 
@@ -16,7 +16,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20"},
 
@@ -26,7 +26,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15 r/l/b"},
 
@@ -36,7 +36,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"12 r/l/b"},
 
@@ -46,7 +46,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15 r/l/b"},
 
@@ -56,7 +56,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20 r/l/b"},
 
@@ -66,7 +66,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20 r/l/b"},
 
@@ -76,7 +76,7 @@
      "day" :["day1", "day2"],
      "ppl" : 2,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20"},
 
@@ -86,7 +86,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"10 r/l/b"},
 
@@ -96,7 +96,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":":30"},
 
@@ -106,7 +106,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20 r/l/b"},
 
@@ -116,7 +116,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"5x(1/2/3) rep per rd"},
 
@@ -126,7 +126,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1:00"},
 
@@ -136,7 +136,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"Up and down 2x"},
 
@@ -146,7 +146,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"},
 
@@ -156,7 +156,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15 r/l/b"},
 
@@ -166,7 +166,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"10"},
 
@@ -176,7 +176,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20"},
 
@@ -186,7 +186,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":":30 r, :30 l"},
 
@@ -196,7 +196,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20"},
 
@@ -206,7 +206,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"10 r, 10 l"},
 
@@ -216,7 +216,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1 Lap"},
 
@@ -226,7 +226,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1 Sprint"},
 
@@ -236,7 +236,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":":45"},
 
@@ -246,7 +246,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"},
 
@@ -256,7 +256,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"10"},
 
@@ -266,7 +266,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1:00"},
 
@@ -277,7 +277,7 @@
      "day" :["day1", "day2"],
      "ppl" : 1,
      "rnds":"1",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1:00"},
 
@@ -288,7 +288,7 @@
      "day" :["day1"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"60 (20s/20m/20f)"},
 
@@ -298,7 +298,7 @@
      "day" :["day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"60 (20s/20m/20f)"},
 
@@ -308,7 +308,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":":45 b/r/l, :15 off"},
 
@@ -318,7 +318,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"30 (15r,15l)"},
 
@@ -328,7 +328,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":":45"},
 
@@ -338,7 +338,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"30"},
 
@@ -348,7 +348,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"30"},
   
@@ -358,7 +358,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"10 v-ups, 20 elevated crunches"},
 
@@ -368,7 +368,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1:00 flutter/scissor/hold, 50 crunches"},
 
@@ -378,7 +378,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"30"},
 
@@ -388,7 +388,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"2",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"1:00"},
 
@@ -398,7 +398,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"2",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"30 r/l"},
 
@@ -408,7 +408,7 @@
      "day" :["day1","day2"],
      "ppl" : 2,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"20"},
 
@@ -418,7 +418,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"},
 
@@ -428,7 +428,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"},
 
@@ -438,7 +438,7 @@
      "day" :["day1","day2"],
      "ppl" : 1,
      "rnds":"3",
-     "intr":"5",
+     "intr":"0",
      "rest":"15",
      "reps":"15"}
 

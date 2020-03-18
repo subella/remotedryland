@@ -26,8 +26,8 @@ framework = [["warmup_lo", "warmup_up"],
              ["big_bertha"],
              ["main_ob"],
              ] 
-hour = 18
-minute = 35
+hour = 21
+minute = 44
 second = 0
 
 work_out = None
@@ -46,7 +46,7 @@ def update():
 
 def generateWorkout():
     print ("Generating")
-    jsondata = open('./static/work_outs_new.json').read()
+    jsondata = open('./static/work_outs_stripped.json').read()
     global work_out
     global printed_work_out
     work_out_data = json.loads(jsondata)['workouts']
@@ -79,8 +79,8 @@ def playWorkout():
     global current_set
     for i in range(len(work_out)):
         current_set = i
-        print (work_out[i]["name"])
         countdown(int(work_out[i]["intr"]))
+    time.sleep(5)
     work_out_started = False
         
 
@@ -89,7 +89,6 @@ def countdown(set_time):
         global time_remaining
         time_remaining = sec
         time.sleep(1)
-        print (sec)
     
         
 
@@ -97,7 +96,7 @@ if __name__ == '__main__':
     sched = BackgroundScheduler()
     generateWorkout()
     gen_trigger = OrTrigger([
-    CronTrigger(hour=hour, minute=minute, second=second),
+    CronTrigger(hour=hour+1, minute=minute, second=second),
      ])
     play_trigger = OrTrigger([
     CronTrigger(hour=hour, minute=minute, second=second),
@@ -105,4 +104,4 @@ if __name__ == '__main__':
     #sched.add_job(generateWorkout, gen_trigger)
     sched.add_job(playWorkout, play_trigger)
     sched.start()
-    app.run(debug=True, use_reloader=False)
+    app.run(port=8080,debug=True, use_reloader=False)

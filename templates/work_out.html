@@ -14,22 +14,31 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
-.w3-jumbo {
+.small_text{
+  font-size:100%
+}
+.big_text {
   text-align:center;
+  font-size:200%
 }
 </style>
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge" onClick="printWorkout()">
+  <div class="w3-display-topleft w3-padding-large small_text" onClick="printWorkout()">
+    <a href="">
     Click me to view the next workout!
+    </href>
+  </div>
+  <div class="w3-display-bottomright w3-padding-large small_text" >
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScVvsPwO8MMLVKEeP4O3QSbN-XhiiNJIynUHo-wHRSkvSAHYw/viewform?usp=sf_link">
+    Submit workout suggestions here!</href>
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top" id="set"></h1>
+    <h1 class="big_text w3-animate-top" id="set"></h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <h1 class="w3-jumbo" id="timer"></h1>
-    <p class="w3-large w3-center" id="next"></p>
-    <p class="w3-large w3-left" id="print"></p>
+    <h1 class="big_text" id="timer"></h1>
+    <p class="small w3-center" id="next"></p>
   </div>
 </div>
 
