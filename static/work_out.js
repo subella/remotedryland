@@ -35,6 +35,7 @@ function displayTimer(callback){
       count--;
     }else{
       set++;
+      document.getElementById('audiotag1').play();
       callback();
     }
     console.log("Count: " + count)
