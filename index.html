@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
 <style>
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
@@ -42,18 +43,10 @@ body, html {height: 100%}
   </div>
 </div>
 
-<script>
-  var name = "{{ name }}";
-  var current_set = "{{ current_set }}";
-  var time_remaining = "{{ time_remaining }}";
-  var work_out_started = "{{ work_out_started }}";
-  var work_out_time = {{ work_out_time|tojson }};
-  var work_out = {{ work_out|tojson }}
-  var printed_work_out = {{ printed_work_out|tojson }}
-</script>
 
-<script type="application/json" src="{{ url_for('static', filename = 'work_outs_new.json') }}"></script>
-<script type="text/javascript" src="{{ url_for('static', filename = 'work_out.js') }}"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="workouts/workout_pool.json"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
