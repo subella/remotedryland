@@ -1,13 +1,15 @@
 function parse() {
   var input = document.forms['input']['workout'].value
   document.write(input)
+  // fuck my whole life
+  // the remnants of what used to parse an excel copy and paste
 }
 
-var i = 1
+var a = 1
 
 function addExercises() {
-  var number = document.getElementById("exercises" + i).value;
-  var container = document.getElementById("container");
+  var number = document.getElementById("exercises" + a).value;
+  var container = document.getElementById("container" + a);
 
   while (container.hasChildNodes()) {
      container.removeChild(container.lastChild);
@@ -36,11 +38,11 @@ function addExercises() {
 }
 
 function addSet() {
-  i += 1
-  var set_text = document.createTextNode("Set " + i + ": ");
+  a += 1
+  var set_text = document.createTextNode("Set " + a + ": ");
   var new_set = document.createElement("SELECT");
-  new_set.setAttribute("id", "exercises" + i)
-  new_set.onchange = function() { addExercises() }
+  new_set.setAttribute("id", "exercises" + a);
+  new_set.onchange = function() { addExercises() };
   var set_container = document.getElementById("set_container");
   var empty = document.createElement("option");
   empty.text = "# of exercises";
@@ -59,6 +61,9 @@ function addSet() {
   new_set.add(three);
   set_container.appendChild(set_text);
   set_container.appendChild(new_set);
+  var div = document.createElement("DIV");
+  div.setAttribute("id", "container" + a);
+  set_container.appendChild(div);
   set_container.appendChild(document.createElement("br"))
 }
 
