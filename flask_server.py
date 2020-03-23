@@ -27,7 +27,7 @@ framework = [["warmup_lo", "warmup_up"],
              ["main_ob"],
              ] 
 hour = 17
-minute = 0
+minute = 30
 second = 0
 
 work_out = None
@@ -46,7 +46,7 @@ def update():
 
 def generateWorkout():
     print ("Generating")
-    jsondata = open('./static/work_outs_stripped.json').read()
+    jsondata = open('./static/workout_pool.json').read()
     global work_out
     global printed_work_out
     work_out_data = json.loads(jsondata)['workouts']
@@ -73,11 +73,12 @@ def generateWorkout():
     print(work_out)
 
 def loadWorkout():
-    global work_out
-    jsondata = open('./workouts/3_21_20.json').read()
-    work_out = json.loads(jsondata)
-    
-    print (work_out[0])
+    pass
+    #global work_out
+    #jsondata = open('./workouts/3_21_20.json').read()
+    #work_out = json.loads(jsondata)
+    #
+    #print (work_out[0])
 
 
 
@@ -106,8 +107,8 @@ def countdown(set_time):
 
 if __name__ == '__main__':
     sched = BackgroundScheduler()
-    #generateWorkout()
-    loadWorkout()
+    generateWorkout()
+    #loadWorkout()
     gen_trigger = OrTrigger([
     CronTrigger(hour=hour+1, minute=minute, second=second),
      ])
