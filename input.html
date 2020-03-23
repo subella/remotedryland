@@ -6,14 +6,18 @@
 
 <p>Please submit your workout using the form below. Sets can include up to 3 exercises.</p>
 
-<label for="exercises">Set 1:</label>
-<select id="exercises" onchange="addExercises()">
+<label for="exercises1">Set 1:</label>
+<select id="exercises1" onchange="addExercises()">
   <option># of exercises</option>
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
 </select>
-  <div id="container"/>
+<div id="container1"></div>
+<div id="set_container"></div>
+
+<button name="add" onclick="addSet()">Add Set</button>
+
 <!--
 <form name="input" onsubmit="parse()">
   <label for="workout">Workout:</label>
@@ -21,9 +25,9 @@
   <input type="submit" value="Submit">
 </form>
 -->
-<script src="functions.js"></script>
-
 <p>After clicking Submit, click send to email the JSON array to Sam.</p>
+
+<script src="functions.js"></script>
 
 </body>
 </html>
