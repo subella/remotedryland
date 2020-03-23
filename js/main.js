@@ -1,5 +1,105 @@
-console.log(exercise_pool);
+var current_date = new Date();
+var workout_date = new Date();
+workout_date.setHours(16,45,30);
 
+var current_time = current_date.getTime();
+var workout_time = workout_date.getTime();
+
+var workout_total_time = 0;
+for (var exercise=0; exercise < workout.length; exercise++){
+  workout_total_time += workout[exercise]["intr"];
+}
+
+var workout_in_progress = false;
+var current_set = 0;
+var current_set_time = workout[0]["intr"];
+if(current_time > workout_time && current_time < workout_time + workout_total_time){
+  workout_in_progress = true;
+  var elapsed_time = current_time - workout_time;
+  var elapsed_seconds = elapsed_time/1000;
+  console.log(elapsed_seconds);
+  var running_seconds = 0;
+  for (var exercise=0; exercise < workout.length; exercise++){
+    running_seconds += +workout[exercise]["intr"];
+    console.log("running sec: " + running_seconds);
+    if (running_seconds > elapsed_seconds){
+      console.log("Running time: " + running_seconds);
+      console.log("Elapsed time: " + elapsed_seconds);
+      current_set = exercise;
+      current_set_time = workout[exercise]["intr"];
+      console.log(workout[current_set]["name"]);
+      console.log(current_set_time);
+      break;
+    }
+  }
+}
+
+
+if (workout_in_progress){
+  startWorkout(workout, current_set, current_set_time);
+}else{
+  startCountdown(workout_date);
+}
+
+
+function startWorkout(workout, current_set, current_set_time){
+  console.log("workout started");
+  document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
+  document.getElementById("timer").innerHTML = current_set_time;
+  
+  var target_time = new Date();
+  console.log("now: " + target_time.getTime());
+  target_time.setSeconds(target_time.getSeconds() + current_set_time);
+  target_time = target_time.getTime();
+  console.log("target: " + target_time);
+  var cnt = setInterval(function() {
+  
+    var current_time = new Date().getTime();
+  
+    var distance =  target_time - current_time;
+  
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+  
+    if (distance < 0) {
+      clearInterval(cnt);
+      startWorkout(workout, current_set + 1, workout[+current_set + 1]["intr"]);
+    }
+  }, 1000);
+
+}
+
+
+
+
+function startCountdown(workout_date){
+  var cnt = setInterval(function() {
+  
+    var current_time = new Date().getTime();
+    var workout_time = workout_date.getTime();
+  
+    var distance = workout_time - current_time;
+  
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+  
+    if (distance < 0) {
+      //clearInterval(cnt);
+      workout_date.setDate(workout_date.getDate()+1);
+      //document.getElementById("timer").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+}
 
 
 //var count = time_remaining;
