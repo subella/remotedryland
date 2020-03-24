@@ -1,10 +1,13 @@
 function init(){
   var current_date = new Date();
-  var workout_date = new Date();
-  workout_date.setHours(22,00,0);
-  
+  //var workout_date = new Date();
+  //workout_date.setHours(22,30,0);
   var current_time = current_date.getTime();
+  var workout_date = new Date(Date.UTC(2020, 2 , 23, 2 , 30, 0, 0));
   var workout_time = workout_date.getTime();
+  console.log("Workout time: " + workout_date);
+  console.log("Current time: " + current_date);
+  
   
   var workout_total_time = 0;
   for (var exercise=0; exercise < workout.length; exercise++){
@@ -77,7 +80,7 @@ function startCountdown(workout_date){
     var current_time = new Date().getTime();
     var workout_time = workout_date.getTime();
   
-    var distance = workout_time - current_time - getESTOffset(workout_date) *60*60*1000;
+    var distance = workout_time - current_time;
   
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -94,10 +97,5 @@ function startCountdown(workout_date){
     }
   }, 1000);
 }
-
-function getESTOffset(workout_date) {
-    return new Date().getTimezoneOffset() - (workout_date.getTimezoneOffset())
-}
-
 
 window.onload = init();
