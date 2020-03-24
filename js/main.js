@@ -2,7 +2,7 @@ function init(){
   var current_date = new Date();
   var current_date_utc = new Date(current_date.getTime() + current_date.getTimezoneOffset() * 60000);
   var workout_date = new Date();
-  workout_date.setHours(21,05,0);
+  workout_date.setHours(21,15,0);
   var workout_date_utc = new Date(workout_date.getTime() + workout_date.getTimezoneOffset() * 60000);
   
   var current_time = current_date_utc.getTime();
