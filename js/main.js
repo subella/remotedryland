@@ -1,12 +1,10 @@
 function init(){
   var current_date = new Date();
-  var current_date_utc = new Date(current_date.getTime() + current_date.getTimezoneOffset() * 60000);
   var workout_date = new Date();
-  workout_date.setHours(21,15,0);
-  var workout_date_utc = new Date(workout_date.getTime() + workout_date.getTimezoneOffset() * 60000);
+  workout_date.setHours(22,00,0);
   
-  var current_time = current_date_utc.getTime();
-  var workout_time = workout_date_utc.getTime();
+  var current_time = current_date.getTime();
+  var workout_time = workout_date.getTime();
   
   var workout_total_time = 0;
   for (var exercise=0; exercise < workout.length; exercise++){
@@ -23,7 +21,7 @@ function init(){
     //console.log(elapsed_seconds);
     var running_seconds = 0;
     for (var exercise=0; exercise < workout.length; exercise++){
-      running_seconds += +workout[exercise]["intr"]+1;
+      running_seconds += +workout[exercise]["intr"];
       if (running_seconds > elapsed_seconds){
         current_set = exercise;
         current_set_time = running_seconds - elapsed_seconds;
@@ -36,10 +34,10 @@ function init(){
     startWorkout(workout, current_set, current_set_time);
   }else{
     if (current_time <= workout_time){
-      startCountdown(workout_date_utc);
+      startCountdown(workout_date);
     }else{
       workout_date.setDate(workout_date.getDate() + 1);
-      startCountdown(workout_date_utc);
+      startCountdown(workout_date);
     }
   }
 }
@@ -76,12 +74,10 @@ function startCountdown(workout_date){
   document.getElementById("set").innerHTML = "Next Workout in:"
   var cnt = setInterval(function() {
   
-    var current_date = new Date()
-    var current_date_utc = new Date(current_date.getTime() + current_date.getTimezoneOffset() * 60000);
-    var current_time = current_date_utc.getTime();
+    var current_time = new Date().getTime();
     var workout_time = workout_date.getTime();
   
-    var distance = workout_time - current_time;
+    var distance = workout_time - current_time - getESTOffset(workout_date) *60*60*1000;
   
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -98,5 +94,10 @@ function startCountdown(workout_date){
     }
   }, 1000);
 }
+
+function getESTOffset(workout_date) {
+    return new Date().getTimezoneOffset() - (workout_date.getTimezoneOffset())
+}
+
 
 window.onload = init();
