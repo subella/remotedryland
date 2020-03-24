@@ -3,7 +3,8 @@ function init(){
   //var workout_date = new Date();
   //workout_date.setHours(22,30,0);
   var current_time = current_date.getTime();
-  var workout_date = new Date(Date.UTC(2020, 2 , 23, 2 , 30, 0, 0));
+  var workout_date = new Date();
+  workout_date = new Date(Date.UTC(workout_date.getUTCFullYear(), workout_date.getUTCMonth(), workout_date.getUTCDate(), 21, 0, 0, 0));
   var workout_time = workout_date.getTime();
   console.log("Workout time: " + workout_date);
   console.log("Current time: " + current_date);
@@ -34,7 +35,7 @@ function init(){
   }
   
   if (workout_in_progress==true){
-    startWorkout(workout, current_set, current_set_time);
+    startWorkout(workout, current_set, current_set_time, workout_date);
   }else{
     if (current_time <= workout_time){
       startCountdown(workout_date);
@@ -45,7 +46,7 @@ function init(){
   }
 }
 
-function startWorkout(workout, current_set, current_set_time){
+function startWorkout(workout, current_set, current_set_time, workout_date){
   document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
   document.getElementById("timer").innerHTML = current_set_time;
   if (+current_set + 1 < workout.length){
@@ -55,17 +56,19 @@ function startWorkout(workout, current_set, current_set_time){
   }
   
   var count = current_set_time;
+  var workout_date = workout_date;
   var cnt = setInterval(function() {
     count --;
     if (count < 0) {
       clearInterval(cnt);
       if (+current_set + 1 < workout.length){
-        startWorkout(workout, current_set + 1, workout[+current_set + 1]["intr"]);
+        startWorkout(workout, current_set + 1, workout[+current_set + 1]["intr"], workout_date);
       }else{
         document.getElementById("set").innerHTML = "Workout Completed!! :D";
         document.getElementById("timer").innerHTML = "";
         document.getElementById("next").innerHTML = "";
-         
+        workout_date.setDate(workout_date.getDate() + 1);
+        startCountdown(workout_date);
       }
     }else{
       document.getElementById("timer").innerHTML = count;
