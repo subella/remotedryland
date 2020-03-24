@@ -1,10 +1,12 @@
 function init(){
   var current_date = new Date();
+  var current_date_utc = new Date(current_date.getTime() + current_date.getTimezoneOffset() * 60000);
   var workout_date = new Date();
-  workout_date.setHours(20,40,0);
+  workout_date.setHours(21,05,0);
+  var workout_date_utc = new Date(workout_date.getTime() + workout_date.getTimezoneOffset() * 60000);
   
-  var current_time = current_date.getTime();
-  var workout_time = workout_date.getTime();
+  var current_time = current_date_utc.getTime();
+  var workout_time = workout_date_utc.getTime();
   
   var workout_total_time = 0;
   for (var exercise=0; exercise < workout.length; exercise++){
@@ -21,7 +23,7 @@ function init(){
     //console.log(elapsed_seconds);
     var running_seconds = 0;
     for (var exercise=0; exercise < workout.length; exercise++){
-      running_seconds += +workout[exercise]["intr"];
+      running_seconds += +workout[exercise]["intr"]+1;
       if (running_seconds > elapsed_seconds){
         current_set = exercise;
         current_set_time = running_seconds - elapsed_seconds;
@@ -34,10 +36,10 @@ function init(){
     startWorkout(workout, current_set, current_set_time);
   }else{
     if (current_time <= workout_time){
-      startCountdown(workout_date);
+      startCountdown(workout_date_utc);
     }else{
       workout_date.setDate(workout_date.getDate() + 1);
-      startCountdown(workout_date);
+      startCountdown(workout_date_utc);
     }
   }
 }
@@ -74,7 +76,9 @@ function startCountdown(workout_date){
   document.getElementById("set").innerHTML = "Next Workout in:"
   var cnt = setInterval(function() {
   
-    var current_time = new Date().getTime();
+    var current_date = new Date()
+    var current_date_utc = new Date(current_date.getTime() + current_date.getTimezoneOffset() * 60000);
+    var current_time = current_date_utc.getTime();
     var workout_time = workout_date.getTime();
   
     var distance = workout_time - current_time;
