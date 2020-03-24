@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Workout Submission Form</h1>
+
+<p>Please submit your workout using the form below. Sets can include up to 3 exercises.</p>
+
+<label for="exercises1">Set 1:</label>
+<select id="exercises1" onchange="addExercises()">
+  <option># of exercises</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+<div id="container1"></div>
+<div id="set_container"></div>
+
+<button name="add" onclick="addSet()">Add Set</button>
+<button name="submit" onclick="test()">Submit</button>
+
+<!--
+<form name="input" onsubmit="parse()">
+  <label for="workout">Workout:</label>
+  <input type="text" id="workout" name="workout"><br><br>
+  <input type="submit" value="Submit">
+</form>
+-->
+<p>After clicking Submit, click send to email the JSON array to Sam.</p>
+
+<script src="js/functions.js"></script>
+
+</body>
+</html>
