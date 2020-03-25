@@ -4,7 +4,7 @@ function init(){
   //workout_date.setHours(22,30,0);
   var current_time = current_date.getTime();
   var workout_date = new Date();
-  workout_date = new Date(Date.UTC(workout_date.getUTCFullYear(), workout_date.getUTCMonth(), workout_date.getUTCDate(), 21, 0, 0, 0));
+  workout_date = new Date(Date.UTC(workout_date.getUTCFullYear(), workout_date.getUTCMonth(), workout_date.getUTCDate(), 22, 5, 0, 0));
   var workout_time = workout_date.getTime();
   console.log("Workout time: " + workout_date);
   console.log("Current time: " + current_date);
