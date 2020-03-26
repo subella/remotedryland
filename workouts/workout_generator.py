@@ -44,11 +44,10 @@ def generateWorkout():
 
 def generateWeek():
     today = datetime.utcnow()
-    workout_date = today.replace(hour=19,minute=30,second=0, microsecond=0)
     workout_list = []
     for day_number in range(7):
         workout_date = today + timedelta(days=day_number)
-        workout_date = workout_date.replace(hour=16,minute=55,second=0, microsecond=0)
+        workout_date = workout_date.replace(hour=21,minute=30,second=0, microsecond=0, tzinfo=timezone.utc)
         workout = generateWorkout()
         data = {}
         data['date'] = workout_date.isoformat()
