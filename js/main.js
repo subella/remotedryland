@@ -11,31 +11,19 @@ function init(){
     for (var exercise=0; exercise < next_workout.length; exercise++){
       workout_total_time += +next_workout[exercise]["intr"]*1000;
     }
-    var current_time = new Date().getTime();
-    
-    //console.log("Next workout: " + next_workout);
-    //console.log("Workout time: " + workout_time);
-    //console.log("Workout total time: " + workout_total_time);
-    //console.log("Workout end: " + (+workout_total_time +workout_time));
-    //console.log("Current time: " + current_time);
-    //console.log("Workout date: " + next_date);
-    //console.log("Current date: " + current_date);
 
+    var current_time = new Date().getTime();
     if(current_time > workout_time && current_time < workout_time + workout_total_time){
       workout_in_progress = true;
       workout_exists = true;
       workout = next_workout;
       workout_date = next_date;
-      //console.log("Workout: " + workout);
-      //console.log("Workout Date: " + workout_date);
       break;
     }else if(current_time < workout_time){
       workout_in_progress = false;
       workout_exists = true;
       workout = next_workout;
       workout_date = next_date;
-      //console.log("Workout: " + workout);
-      //console.log("Workout Date: " + workout_date);
       break;
     }
   }
@@ -76,6 +64,7 @@ function startWorkout(workout, current_set, current_set_time){
   var cnt = setInterval(function() {
     count --;
     if (count < 0) {
+      document.getElementById('ding').play();
       if (+current_set + 1 < workout.length){
         current_set = +current_set+1;
         count = +workout[current_set]["intr"]-1;
