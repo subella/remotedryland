@@ -6,6 +6,37 @@ function parse() {
 }
 
 var a = 1
+var array = [];
+// function convertJson() {
+//   var numberOfSets = a;
+//   console.log(numberOfSets);
+//   var array = [];
+//   for (i=1; i<=numberOfSets; i++) {
+//     var numberOfExercises = document.getElementById("exercises" + a).value;
+//     for (i = 1; i<= numberOfExercises; i++) {
+//       array.push({
+//         exercise: 
+//       })
+//     }
+//   }
+// }
+
+// function saveExercise(exerciseID, intrID, repsID){
+//   console.log("EXERCISE ID: " + exerciseID);
+//   console.log(intrID);
+//   console.log(repsID);
+//   var exerciseName =document.getElementById(exerciseID).value;
+//   var interval =document.getElementById(intrID).value;
+//   var repititions =document.getElementById(repsID).value;
+
+//   array.push({
+//     name: exerciseName,
+//     intr: interval,
+//     reps: repititions
+//   });
+//   console.log(array);
+// }
+
 
 function addExercises() {
   var number = document.getElementById("exercises" + a).value;
@@ -20,18 +51,25 @@ function addExercises() {
     var exercise_text = document.createTextNode("Exercise " + (i+1) + ":");
     var exercise_input = document.createElement("input");
     exercise_input.type = "text";
+    exercise_input.id = "set"+a+"exercise"+(i+1);
     var intr_text = document.createTextNode("Interval: ");
     var intr_input = document.createElement("input");
     intr_input.type = "text";
+    intr_input.id = "set"+a+"intr"+(i+1);
     var reps_text = document.createTextNode("Reps: ");
     var reps_input = document.createElement("input");
+    reps_input.id = "set"+a+"reps"+(i+1);
     reps_input.type = "text";
+    // var btn = document.createElement("BUTTON");   // Create a <button> element
+    // btn.innerHTML = "SAVE EXERCISE";  
+    // btn.onclick = function() {saveExercise(exercise_input.id, intr_input.id, reps_input.id)};
     para.appendChild(exercise_text);
     para.appendChild(exercise_input);
     para.appendChild(intr_text);
     para.appendChild(intr_input);
     para.appendChild(reps_text);
     para.appendChild(reps_input);
+    // para.appendChild(btn);
     container.appendChild(para);
     container.appendChild(document.createElement("br"));
     }
@@ -68,5 +106,28 @@ function addSet() {
 }
 
 function test() {
-  document.write('hello');
+  for (i = 1; i <= a; i++){
+    numExercises = document.getElementById("exercises" + i).value;
+    for (x = 0; x < 3; x ++) {
+      for (j = 1; j <= numExercises; j++) {
+        var exerciseID = "set"+i+"exercise"+j;
+        var intrID = "set"+i+"intr"+j;
+        var repsID = "set"+i+"reps"+j;
+        var exerciseName =document.getElementById(exerciseID).value;
+        var interval =document.getElementById(intrID).value;
+        var repititions =document.getElementById(repsID).value;
+        array.push({
+          name: exerciseName,
+          intr: interval,
+          reps: repititions
+        });
+        array.push({
+          name: "rest",
+          intr: "15",
+          reps: ":15"
+        });
+      }
+    }
+  }
+  console.log(array);
 }
