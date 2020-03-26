@@ -23,7 +23,19 @@ body, html {height: 100%}
   font-size:300%
 }
 </style>
-
+<style>
+ .button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 8%;
+}
+</style>
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -93,12 +105,12 @@ body {
   <a href="#">Submit Suggestions</a>
 </div>
 
-<span class="big_text" onclick="openNav()">&#9776; Click me!</span>
+<button class="button" onClick="openNav()">Click me!</button>
 
 </div>
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "50%";
+  document.getElementById("mySidenav").style.width = "25%";
 }
 
 function closeNav() {
