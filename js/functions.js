@@ -38,15 +38,15 @@ var array = [];
 // }
 
 
-function addExercises() {
-  var number = document.getElementById("exercises" + a).value;
-  var container = document.getElementById("container" + a);
+function addExercises(number) {
+  var val = document.getElementById("exercises" + number).value;
+  var container = document.getElementById("container" + number);
 
   while (container.hasChildNodes()) {
      container.removeChild(container.lastChild);
   }
 
-  for (i=0; i<number; i++) {
+  for (i=0; i<val; i++) {
     var para = document.createElement("P");
     var exercise_text = document.createTextNode("Exercise " + (i+1) + ":");
     var exercise_input = document.createElement("input");
@@ -80,7 +80,7 @@ function addSet() {
   var set_text = document.createTextNode("Set " + a + ": ");
   var new_set = document.createElement("SELECT");
   new_set.setAttribute("id", "exercises" + a);
-  new_set.onchange = function() { addExercises() };
+  new_set.onchange = function() { addExercises(a) };
   var set_container = document.getElementById("set_container");
   var empty = document.createElement("option");
   empty.text = "# of exercises";
@@ -102,7 +102,7 @@ function addSet() {
   var div = document.createElement("DIV");
   div.setAttribute("id", "container" + a);
   set_container.appendChild(div);
-  set_container.appendChild(document.createElement("br"))
+  // set_container.appendChild(document.createElement("br"))
 }
 
 function test() {
