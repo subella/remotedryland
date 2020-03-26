@@ -1,4 +1,4 @@
-var exercise_pool = [
+[
     {"name":"Push Ups",
      "type":"warmup_up",
      "loca":["balcony", "maccourt", "track", "rosebowl", "caltech", "vacation"],
