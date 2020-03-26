@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python3 /home/subella/"Dropbox (MIT)"/src/remote-dryland/workouts/workout_generator.py
+git add /home/subella/"Dropbox (MIT)"/src/remote-dryland/workouts/workout_list.js
+git commit -m "Auto-Commit: updated workouts"
+git push origin master
