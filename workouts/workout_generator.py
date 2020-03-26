@@ -20,7 +20,7 @@ framework = [["warmup_lo", "warmup_up"],
 
 
 def generateWorkout():
-    jsondata = open('./workout_pool.json').read()
+    jsondata = open('/home/subella/Dropbox (MIT)/src/remote-dryland/workouts/workout_pool.json').read()
     workout_data = json.loads(jsondata)
     workout = []
     rest = {"name":"Rest", "intr":10, "reps":10} 
@@ -58,7 +58,7 @@ def generateWeek():
     
 
 def writeWorkout(workout):
-    with open('workout_list.js', 'w') as f:
+    with open('/home/subella/Dropbox (MIT)/src/remote-dryland/workouts/workout_list.js', 'w') as f:
         f.write("var workout_list = ")
         json.dump(workout, f)
     
