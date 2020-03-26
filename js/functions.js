@@ -6,7 +6,6 @@ function parse() {
 }
 
 var a = 1
-var array = [];
 // function convertJson() {
 //   var numberOfSets = a;
 //   console.log(numberOfSets);
@@ -105,7 +104,8 @@ function addSet() {
   // set_container.appendChild(document.createElement("br"))
 }
 
-function test() {
+function submitJSON() {
+  var array = [];
   for (i = 1; i <= a; i++){
     numExercises = document.getElementById("exercises" + i).value;
     for (x = 0; x < 3; x ++) {
