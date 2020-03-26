@@ -1,4 +1,3 @@
-
 function init(){
   var workout_date;
   var workout;
