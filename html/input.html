@@ -10,7 +10,7 @@
 <p>Please submit your workout using the form below. Sets can include up to 3 exercises.</p>
 
 <label for="exercises1">Set 1:</label>
-<select id="exercises1" onchange="addExercises()">
+<select id="exercises1" onchange="addExercises(1)">
   <option># of exercises</option>
   <option value="1">1</option>
   <option value="2">2</option>
@@ -19,6 +19,7 @@
 <div id="container1"></div>
 <div id="set_container"></div>
 
+</br>
 <button name="add" onclick="addSet()">Add Set</button>
 <button name="submit" onclick="test()">Submit</button>
 
