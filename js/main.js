@@ -4,7 +4,7 @@ function init(){
   //workout_date.setHours(22,30,0);
   var current_time = current_date.getTime();
   var workout_date = new Date();
-  workout_date = new Date(Date.UTC(workout_date.getUTCFullYear(), workout_date.getUTCMonth(), workout_date.getUTCDate(), 22, 5, 0, 0));
+  workout_date = new Date(Date.UTC(workout_date.getUTCFullYear(), workout_date.getUTCMonth(), workout_date.getUTCDate(), 1, 3, 0, 0));
   var workout_time = workout_date.getTime();
   console.log("Workout time: " + workout_date);
   console.log("Current time: " + current_date);
@@ -21,8 +21,8 @@ function init(){
   if(current_time > workout_time && current_time < workout_time + workout_total_time){
     workout_in_progress = true;
     var elapsed_time = current_time - workout_time;
-    var elapsed_seconds = elapsed_time/1000;
-    //console.log(elapsed_seconds);
+    var elapsed_seconds = Math.floor(elapsed_time/1000);
+    console.log("Elapsed: ", elapsed_seconds);
     var running_seconds = 0;
     for (var exercise=0; exercise < workout.length; exercise++){
       running_seconds += +workout[exercise]["intr"];
@@ -47,23 +47,30 @@ function init(){
 }
 
 function startWorkout(workout, current_set, current_set_time, workout_date){
+  var count = current_set_time;
   document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
-  document.getElementById("timer").innerHTML = current_set_time;
+  document.getElementById("timer").innerHTML = Math.floor(count);
   if (+current_set + 1 < workout.length){
     document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
   }else{
     document.getElementById("next").innerHTML = "Up Next: Workout Completed!! :D";
   }
   
-  var count = current_set_time;
-  var workout_date = workout_date;
   var cnt = setInterval(function() {
     count --;
     if (count < 0) {
-      clearInterval(cnt);
       if (+current_set + 1 < workout.length){
-        startWorkout(workout, current_set + 1, workout[+current_set + 1]["intr"], workout_date);
+        current_set = +current_set+1;
+        count = +workout[current_set]["intr"]-1;
+        document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
+        document.getElementById("timer").innerHTML = count;
+        if (+current_set + 1 < workout.length){
+          document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
+        }else{
+          document.getElementById("next").innerHTML = "Up Next: Workout Completed!! :D";
+        }
       }else{
+        clearInterval(cnt);
         document.getElementById("set").innerHTML = "Workout Completed!! :D";
         document.getElementById("timer").innerHTML = "";
         document.getElementById("next").innerHTML = "";
@@ -71,10 +78,11 @@ function startWorkout(workout, current_set, current_set_time, workout_date){
         startCountdown(workout_date);
       }
     }else{
-      document.getElementById("timer").innerHTML = count;
+      document.getElementById("timer").innerHTML = Math.floor(count);
     }
   }, 1000);
 }
+
 
 function startCountdown(workout_date){
   document.getElementById("set").innerHTML = "Next Workout in:"
