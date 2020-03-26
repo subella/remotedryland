@@ -57,13 +57,13 @@ function init(){
         break;
       }
     }
-    startWorkout(workout, current_set, current_set_time, workout_date);
+    startWorkout(workout, current_set, current_set_time);
   }else{
     startCountdown(workout, workout_date);
   }
 }
 
-function startWorkout(workout, current_set, current_set_time, workout_date){
+function startWorkout(workout, current_set, current_set_time){
   var count = current_set_time;
   document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
   document.getElementById("timer").innerHTML = Math.floor(count);
