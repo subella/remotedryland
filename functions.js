@@ -7,8 +7,9 @@ function parse() {
 
 var a = 1
 
-function addExercises(number) {
-  var val = document.getElementById("exercises" + number).value;
+function addExercises(object) {
+  var val = object.value // value that is selected
+  var number = object.id[object.id.length-1] // set number
   var container = document.getElementById("container" + number);
 
   while (container.hasChildNodes()) {
@@ -42,7 +43,7 @@ function addSet() {
   var set_text = document.createTextNode("Set " + a + ": ");
   var new_set = document.createElement("SELECT");
   new_set.setAttribute("id", "exercises" + a);
-  new_set.onchange = function() { addExercises(a) };
+  new_set.onchange = function() { addExercises(this) };
   var set_container = document.getElementById("set_container");
   var empty = document.createElement("option");
   empty.text = "# of exercises";
