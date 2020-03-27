@@ -126,7 +126,7 @@ function printWorkout(workout){
 }
 
 const getTime = async () => {
-  const response = await fetch('http://worldtimeapi.org/api/timezone/America/Argentina/Salta');
+  const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
   const date = await response.json(); //extract JSON from the http response
   // do something with myJson
   current_utc_time = date.utc_datetime;
