@@ -47,7 +47,7 @@ def generateWeek():
     workout_list = []
     for day_number in range(7):
         workout_date = today + timedelta(days=day_number)
-        workout_date = workout_date.replace(hour=21,minute=30,second=0, microsecond=0, tzinfo=timezone.utc)
+        workout_date = workout_date.replace(hour=21,minute=0,second=0, microsecond=0, tzinfo=timezone.utc)
         workout = generateWorkout()
         data = {}
         data['date'] = workout_date.isoformat()

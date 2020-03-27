@@ -1,9 +1,10 @@
-var global_workout;
-function init(){
+function init(current_utc_time){
   var workout_date;
   var workout;
   var work_out_in_progress = false;
   var workout_exists = false;
+  var current_date = new Date(current_utc_time);
+  var current_time = current_date.getTime();
   for (var workout_index=0; workout_index < workout_list.length; workout_index++){
     var next_date = new Date(workout_list[workout_index]["date"]);
     var workout_time = next_date.getTime();
@@ -13,19 +14,16 @@ function init(){
       workout_total_time += +next_workout[exercise]["intr"]*1000;
     }
 
-    var current_time = new Date().getTime();
     if(current_time > workout_time && current_time < workout_time + workout_total_time){
       workout_in_progress = true;
       workout_exists = true;
       workout = next_workout;
-      global_workout = workout;
       workout_date = next_date;
       break;
     }else if(current_time < workout_time){
       workout_in_progress = false;
       workout_exists = true;
       workout = next_workout;
-      global_workout = workout;
       workout_date = next_date;
       break;
     }
@@ -34,11 +32,11 @@ function init(){
     document.getElementById("set").innerHTML = "No New Workout Scheduled!";
     return;
   }
+  document.getElementById("next_workout").addEventListener("click", function(){printWorkout(workout)}); 
   
   if (workout_in_progress){
     var running_seconds = 0;
     for (var exercise=0; exercise < workout.length; exercise++){
-      var current_time = new Date().getTime();
       var elapsed_time = current_time - workout_time;
       var elapsed_seconds = Math.floor(elapsed_time/1000);
       running_seconds += +workout[exercise]["intr"];
@@ -50,7 +48,7 @@ function init(){
     }
     startWorkout(workout, current_set, current_set_time);
   }else{
-    startCountdown(workout, workout_date);
+    startCountdown(current_date, workout, workout_date);
   }
 }
 
@@ -92,12 +90,14 @@ function startWorkout(workout, current_set, current_set_time){
 }
 
 
-function startCountdown(workout, workout_date){
+function startCountdown(current_date, workout, workout_date){
   document.getElementById("set").innerHTML = "Next Workout in:"
   var workout_time = workout_date.getTime();
+  var current_time;
   var cnt = setInterval(function() {
 
-    var current_time = new Date().getTime();
+    current_date.setSeconds(current_date.getSeconds() +1);
+    current_time = current_date.getTime();
     var distance = workout_time - current_time;
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -114,10 +114,10 @@ function startCountdown(workout, workout_date){
   }, 1000);
 }
 
-function printWorkout(){
+function printWorkout(workout){
   var set = ""; 
-  for (var i = 0; i < global_workout.length; i++){
-    set += "<br>" + global_workout[i]["reps"] + " " + global_workout[i]["name"];
+  for (var i = 0; i < workout.length; i++){
+    set += "<br>" + workout[i]["reps"] + " " + workout[i]["name"];
     //set += "&nbsp&nbsp&nbsp&nbsp&nbsp";
     }
     var newWindow = window.open();
@@ -125,4 +125,11 @@ function printWorkout(){
     //document.getElementById("print").innerHTML = set; 
 }
 
-window.onload = init();
+const getTime = async () => {
+  const response = await fetch('http://worldtimeapi.org/api/timezone/America/Argentina/Salta');
+  const date = await response.json(); //extract JSON from the http response
+  // do something with myJson
+  current_utc_time = date.utc_datetime;
+  init(current_utc_time);
+}
+window.onload = getTime();
