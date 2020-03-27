@@ -1,3 +1,4 @@
+var global_workout;
 function init(){
   var workout_date;
   var workout;
@@ -17,12 +18,14 @@ function init(){
       workout_in_progress = true;
       workout_exists = true;
       workout = next_workout;
+      global_workout = workout;
       workout_date = next_date;
       break;
     }else if(current_time < workout_time){
       workout_in_progress = false;
       workout_exists = true;
       workout = next_workout;
+      global_workout = workout;
       workout_date = next_date;
       break;
     }
@@ -109,6 +112,17 @@ function startCountdown(workout, workout_date){
       startWorkout(workout, 0, workout[0]["intr"]);
     }
   }, 1000);
+}
+
+function printWorkout(){
+  var set = ""; 
+  for (var i = 0; i < global_workout.length; i++){
+    set += "<br>" + global_workout[i]["reps"] + " " + global_workout[i]["name"];
+    //set += "&nbsp&nbsp&nbsp&nbsp&nbsp";
+    }
+    var newWindow = window.open();
+    newWindow.document.write(set);
+    //document.getElementById("print").innerHTML = set; 
 }
 
 window.onload = init();
