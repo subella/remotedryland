@@ -48,7 +48,7 @@ function init(current_utc_time){
     }
     startWorkout(workout, current_set, current_set_time);
   }else{
-    startCountdown(current_date, workout, workout_date);
+    startCountdown(workout, workout_date);
   }
 }
 
@@ -90,28 +90,34 @@ function startWorkout(workout, current_set, current_set_time){
 }
 
 
-function startCountdown(current_date, workout, workout_date){
+function startCountdown(workout, workout_date){
   document.getElementById("set").innerHTML = "Next Workout in:"
   var workout_time = workout_date.getTime();
-  var current_time;
-  var cnt = setInterval(function() {
+  const countdown = async () => {
+    const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
+    const myJson = await response.json(); //extract JSON from the http response
+    console.log(myJson.utc_datetime);
+    var current_date_global = new Date(myJson.utc_datetime);
+    // do something with myJson
+    var cnt = setInterval(function() {
+        var current_time = current_date_global.getTime();
+        var distance = workout_time - current_time;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    current_date.setSeconds(current_date.getSeconds() +1);
-    current_time = current_date.getTime();
-    var distance = workout_time - current_time;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-    document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-  
-    if (distance < 0) {
-      clearInterval(cnt);
-      startWorkout(workout, 0, workout[0]["intr"]);
-    }
-  }, 1000);
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+        clearInterval(cnt);
+        startWorkout(workout, 0, workout[0]["intr"]);
+        }
+        current_date_global.setSeconds(current_date_global.getSeconds() +1);
+        }, 1000);
+  }
+  countdown();
 }
 
 function printWorkout(workout){
