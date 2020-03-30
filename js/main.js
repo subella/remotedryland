@@ -81,7 +81,7 @@ function startWorkout(workout, current_set, current_set_time){
         document.getElementById("set").innerHTML = "Workout Completed!! :D";
         document.getElementById("timer").innerHTML = "";
         document.getElementById("next").innerHTML = "";
-        init();
+        workoutCompleted();
       }
     }else{
       document.getElementById("timer").innerHTML = Math.floor(count);
@@ -124,12 +124,25 @@ function printWorkout(workout){
   var set = ""; 
   for (var i = 0; i < workout.length; i++){
     set += "<br>" + workout[i]["reps"] + " " + workout[i]["name"];
-    //set += "&nbsp&nbsp&nbsp&nbsp&nbsp";
     }
     var newWindow = window.open();
     newWindow.document.write(set);
-    //document.getElementById("print").innerHTML = set; 
 }
+
+function workoutCompleted(){
+  confetti_div = document.getElementById("confetti_div");
+  show = function(){
+    confetti_div.style.display = "block";
+    setTimeout(hide, 5000); // 5 seconds
+   },
+
+   hide = function(){
+     confetti_div.style.display = "none";
+      init();
+   };
+  show();
+}
+
 
 const getTime = async () => {
   const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
