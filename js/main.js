@@ -48,6 +48,11 @@ function init(current_utc_time){
     }
     startWorkout(workout, current_set, current_set_time);
   }else{
+    var hours = Math.floor((workout_total_time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((workout_total_time % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((workout_total_time % (1000 * 60)) / 1000);
+    document.getElementById("next").innerHTML = "Next Workout Length: " + hours + "h "
+        + minutes + "m " + seconds + "s ";
     startCountdown(workout, workout_date);
   }
 }
@@ -111,8 +116,8 @@ function startCountdown(workout, workout_date){
         + minutes + "m " + seconds + "s ";
 
         if (distance < 0) {
-        clearInterval(cnt);
-        startWorkout(workout, 0, workout[0]["intr"]);
+          clearInterval(cnt);
+          startWorkout(workout, 0, workout[0]["intr"]);
         }
         current_date_global.setSeconds(current_date_global.getSeconds() +1);
         }, 1000);
