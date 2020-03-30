@@ -55,8 +55,34 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Penguins",
         "type": "main_ob",
+        "rnds": "2",
+        "intr": "60",
+        "rest": "15",
+        "reps": "1:00"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Penguins",
+        "type": "main_ob",
+        "rnds": "2",
+        "intr": "60",
+        "rest": "15",
+        "reps": "1:00"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -68,8 +94,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -81,8 +107,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -94,64 +120,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -211,12 +185,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -224,12 +198,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -237,12 +211,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -250,12 +224,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -289,12 +263,64 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Side Crunches",
         "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Side Crunches",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Side Crunches",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Side Crunches",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "30",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -302,12 +328,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
-        "type": "main_ob",
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "30",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -315,12 +341,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
-        "type": "main_ob",
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "30",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -328,64 +354,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
-        "type": "main_ob",
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "30",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -432,12 +406,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -445,12 +419,38 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -463,84 +463,6 @@ var workout_list = [
     "date": "2020-03-30T21:00:00+00:00",
     "workout": [
       {
-        "name": "Jumping Jacks",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Jumping Jacks",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Jumping Jacks",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
         "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
@@ -619,12 +541,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Burpees",
-        "type": "main_lo",
+        "name": "Jumprope",
+        "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "10"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -632,10 +554,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
+        "name": "Push Ups",
+        "type": "warmup_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "15"
       },
@@ -645,12 +567,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Burpees",
-        "type": "main_lo",
+        "name": "Jumprope",
+        "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "10"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -658,10 +580,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
+        "name": "Push Ups",
+        "type": "warmup_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "15"
       },
@@ -671,12 +593,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Burpees",
-        "type": "main_lo",
+        "name": "Jumprope",
+        "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "10"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -684,168 +606,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
+        "name": "Push Ups",
+        "type": "warmup_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
       },
       {
         "name": "Rest",
@@ -866,10 +632,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -892,10 +658,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -918,7 +684,33 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -931,7 +723,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -944,10 +736,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -957,7 +749,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -970,10 +762,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -983,12 +775,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Jumps",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -996,10 +788,218 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Straight Arm Pull Down",
         "type": "main_up",
         "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
         "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Straight Arm Pull Down",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Straight Arm Pull Down",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
         "rest": "15",
         "reps": "20"
       },
@@ -1022,12 +1022,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -1035,12 +1035,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -1048,12 +1048,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -1061,12 +1061,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -1074,12 +1074,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "15"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -1087,142 +1087,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -1273,6 +1143,110 @@ var workout_list = [
         "type": "main_ab",
         "rnds": "4",
         "intr": "30",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -1308,60 +1282,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Russian Twists",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Russian Twists",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Russian Twists",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -1373,8 +1295,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
-        "type": "main_ab",
+        "name": "Side Crunches",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -1386,8 +1308,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
-        "type": "main_ab",
+        "name": "Side Crunches",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -1399,12 +1321,64 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
-        "type": "main_ab",
+        "name": "Side Crunches",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -1451,12 +1425,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -1464,12 +1438,25 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Sit Up Hold",
+        "type": "main_ob",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -1482,12 +1469,12 @@ var workout_list = [
     "date": "2020-03-31T14:00:00+00:00",
     "workout": [
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -1495,12 +1482,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -1508,12 +1495,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -1521,12 +1508,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -1534,12 +1521,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": ":45"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -1547,12 +1534,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": ":45"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -1560,25 +1547,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
-        "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1586,12 +1560,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1599,12 +1573,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1612,12 +1586,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1677,12 +1651,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -1690,12 +1664,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -1703,12 +1677,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -1716,12 +1690,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -1755,12 +1729,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1768,12 +1742,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1781,12 +1755,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1794,12 +1768,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1807,12 +1781,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "45",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1820,12 +1794,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "45",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1833,12 +1807,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "45",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1846,12 +1820,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "45",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -1898,12 +1872,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -1911,12 +1885,38 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -1942,12 +1942,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Ups",
+        "name": "Bench Dips",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "15"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -1968,12 +1968,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Ups",
+        "name": "Bench Dips",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "15"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -1994,6 +1994,32 @@ var workout_list = [
         "reps": ":15"
       },
       {
+        "name": "Bench Dips",
+        "type": "warmup_up",
+        "rnds": "3",
+        "intr": "20",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Lunges",
+        "type": "warmup_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
         "name": "Push Ups",
         "type": "warmup_up",
         "rnds": "3",
@@ -2020,12 +2046,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bench Dips",
+        "name": "Push Ups",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "20"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -2046,128 +2072,11 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bench Dips",
+        "name": "Push Ups",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Lunges",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Bench Dips",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Jumps",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
         "reps": "15"
       },
       {
@@ -2176,25 +2085,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Jumps",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -2202,59 +2098,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Jumps",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Wall Sit",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
@@ -2267,12 +2111,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Wall Sit",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -2280,7 +2124,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
@@ -2293,12 +2137,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Wall Sit",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -2306,7 +2150,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
@@ -2332,12 +2176,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
+        "name": "Handstand Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "40",
         "rest": "15",
-        "reps": "15"
+        "reps": "10"
       },
       {
         "name": "Rest",
@@ -2358,12 +2202,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
+        "name": "Handstand Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "40",
         "rest": "15",
-        "reps": "15"
+        "reps": "10"
       },
       {
         "name": "Rest",
@@ -2384,6 +2228,32 @@ var workout_list = [
         "reps": ":15"
       },
       {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Single Leg Squat",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10 each leg"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
         "name": "Feet Elevated Push Up",
         "type": "main_up",
         "rnds": "3",
@@ -2397,7 +2267,59 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Single Leg Squat",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10 each leg"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Feet Elevated Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "25",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Single Leg Squat",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10 each leg"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Feet Elevated Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "25",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -2410,10 +2332,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Pull Cords",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -2423,7 +2345,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -2436,10 +2358,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Pull Cords",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -2449,7 +2371,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -2462,10 +2384,88 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Pull Cords",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Diamond Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Diamond Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Diamond Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -2488,12 +2488,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -2501,12 +2501,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -2514,12 +2514,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -2527,12 +2527,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Ups",
+        "name": "Bicycles",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "40"
+        "reps": "60"
       },
       {
         "name": "Rest",
@@ -2540,9 +2540,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -2553,9 +2553,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -2566,9 +2566,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -2579,6 +2579,123 @@ var workout_list = [
         "reps": ":15"
       },
       {
+        "name": "Russian Twists",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Rowboats",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
         "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
@@ -2624,110 +2741,6 @@ var workout_list = [
         "intr": "50",
         "rest": "15",
         "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -2761,8 +2774,60 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Windmills",
         "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -2774,8 +2839,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -2787,8 +2852,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -2800,64 +2865,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
+        "name": "Planks",
+        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -2987,12 +3000,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -3000,12 +3013,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -3013,12 +3026,129 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "V-Ups/Elevated Crunches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "50",
+        "rest": "15",
+        "reps": "10/20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3071,110 +3201,6 @@ var workout_list = [
         "intr": "45",
         "rest": "15",
         "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3260,12 +3286,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3273,12 +3299,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3286,12 +3312,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3299,12 +3325,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3351,12 +3377,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -3364,12 +3390,38 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Russian Twists",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Russian Twists",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -3395,12 +3447,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bench Dips",
+        "name": "Push Ups",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "20"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -3421,12 +3473,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bench Dips",
+        "name": "Push Ups",
         "type": "warmup_up",
         "rnds": "3",
         "intr": "20",
         "rest": "15",
-        "reps": "20"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -3447,6 +3499,32 @@ var workout_list = [
         "reps": ":15"
       },
       {
+        "name": "Push Ups",
+        "type": "warmup_up",
+        "rnds": "3",
+        "intr": "20",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Jumping Jacks",
+        "type": "warmup_lo",
+        "rnds": "3",
+        "intr": "60",
+        "rest": "15",
+        "reps": "1:00"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
         "name": "Bench Dips",
         "type": "warmup_up",
         "rnds": "3",
@@ -3460,242 +3538,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Lunges",
+        "name": "Jumping Jacks",
         "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Lunges",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Lunges",
-        "type": "warmup_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Ups",
-        "type": "warmup_up",
-        "rnds": "3",
-        "intr": "20",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Wall Sit",
-        "type": "main_lo",
         "rnds": "3",
         "intr": "60",
         "rest": "15",
@@ -3707,10 +3551,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Pull Cords",
-        "type": "main_up",
+        "name": "Bench Dips",
+        "type": "warmup_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "20",
         "rest": "15",
         "reps": "20"
       },
@@ -3720,8 +3564,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Wall Sit",
-        "type": "main_lo",
+        "name": "Jumping Jacks",
+        "type": "warmup_lo",
         "rnds": "3",
         "intr": "60",
         "rest": "15",
@@ -3733,10 +3577,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Pull Cords",
-        "type": "main_up",
+        "name": "Bench Dips",
+        "type": "warmup_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "20",
         "rest": "15",
         "reps": "20"
       },
@@ -3746,38 +3590,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Wall Sit",
+        "name": "Squats",
         "type": "main_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Pull Cords",
-        "type": "main_up",
         "rnds": "3",
         "intr": "40",
         "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Single Leg Squat",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3798,12 +3616,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Single Leg Squat",
+        "name": "Squats",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "35",
+        "intr": "40",
         "rest": "15",
-        "reps": "10 each leg"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3824,12 +3642,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Single Leg Squat",
+        "name": "Squats",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "35",
+        "intr": "40",
         "rest": "15",
-        "reps": "10 each leg"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -3850,10 +3668,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Burpees",
+        "name": "Manual Hamstring Curls",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "35",
         "rest": "15",
         "reps": "10"
       },
@@ -3863,7 +3681,215 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Step Ups",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Step Ups",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Step Ups",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
@@ -3889,10 +3915,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -3915,10 +3941,36 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "30",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Diamond Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -3941,12 +3993,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -3954,12 +4006,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -3967,12 +4019,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -3980,12 +4032,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -3993,12 +4045,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -4006,12 +4058,142 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4064,110 +4246,6 @@ var workout_list = [
         "intr": "50",
         "rest": "15",
         "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4253,12 +4331,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4266,12 +4344,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4279,12 +4357,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4292,12 +4370,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4344,12 +4422,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4357,12 +4435,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4370,12 +4448,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4383,12 +4461,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4453,12 +4531,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4466,12 +4544,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4479,25 +4557,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4557,10 +4622,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -4570,10 +4635,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -4583,10 +4648,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -4596,10 +4661,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -4609,12 +4674,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4622,12 +4687,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4635,12 +4700,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4648,12 +4713,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -4739,12 +4804,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4752,12 +4817,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4765,12 +4830,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4778,12 +4843,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -4939,12 +5004,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Jumprope",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -4965,12 +5030,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Jumprope",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -4991,12 +5056,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Jumprope",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -5017,12 +5082,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Jumps",
+        "name": "Wall Sit",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "15"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -5030,7 +5095,163 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Inverted Row",
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Wall Sit",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "60",
+        "rest": "15",
+        "reps": "1:00"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Wall Sit",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "60",
+        "rest": "15",
+        "reps": "1:00"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Calf Raises",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -5043,12 +5264,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Jumps",
+        "name": "Calf Raises",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -5056,7 +5277,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Inverted Row",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -5069,38 +5290,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Jumps",
+        "name": "Calf Raises",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Single Leg Squat",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -5134,10 +5329,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Push Up Plank Hold",
         "type": "main_up",
         "rnds": "3",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -5160,7 +5355,59 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Single Leg Squat",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10 each leg"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Step Ups",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -5173,162 +5420,6 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Calf Raises",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Calf Raises",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Calf Raises",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
         "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
@@ -5342,10 +5433,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -5368,36 +5459,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -5511,62 +5576,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
+        "intr": "30",
         "rest": "15",
         "reps": "30"
       },
@@ -5576,10 +5589,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Supermans",
-        "type": "main_bk",
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
-        "intr": "20",
+        "intr": "30",
         "rest": "15",
         "reps": "30"
       },
@@ -5589,10 +5602,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Supermans",
-        "type": "main_bk",
+        "name": "Toe Touches",
+        "type": "main_ab",
         "rnds": "4",
-        "intr": "20",
+        "intr": "30",
         "rest": "15",
         "reps": "30"
       },
@@ -5602,10 +5615,62 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Supermans",
+        "name": "Toe Touches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "20",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
         "rest": "15",
         "reps": "30"
       },
@@ -5745,10 +5810,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -5758,10 +5823,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -5771,10 +5836,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -5784,10 +5849,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -5836,12 +5901,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -5849,12 +5914,38 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -5867,12 +5958,12 @@ var workout_list = [
     "date": "2020-04-03T14:00:00+00:00",
     "workout": [
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -5880,12 +5971,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -5893,12 +5984,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -5906,12 +5997,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -5919,12 +6010,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
+        "rnds": "4",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -5932,21 +6023,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Penguins",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "2",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -5958,8 +6036,8 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
-        "type": "main_ab",
+        "name": "Russian Twists",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
@@ -5971,77 +6049,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
-        "type": "main_ab",
+        "name": "Russian Twists",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Planks",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
       },
       {
         "name": "Rest",
@@ -6094,6 +6107,110 @@ var workout_list = [
         "intr": "30",
         "rest": "15",
         "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -6127,12 +6244,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Windmills",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -6140,12 +6257,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Windmills",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -6153,12 +6270,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Windmills",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -6166,12 +6283,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Windmills",
         "type": "main_ob",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -6270,12 +6387,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -6283,12 +6400,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -6296,25 +6413,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -6327,12 +6431,12 @@ var workout_list = [
     "date": "2020-04-03T21:00:00+00:00",
     "workout": [
       {
-        "name": "Jumping Jacks",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6353,12 +6457,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Jumping Jacks",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6379,12 +6483,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Jumping Jacks",
+        "name": "Lunges",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6483,23 +6587,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Single Leg Squat",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -6509,23 +6600,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Single Leg Squat",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
-        "intr": "30",
+        "intr": "40",
         "rest": "15",
         "reps": "20"
       },
@@ -6535,23 +6613,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Single Leg Squat",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "20"
       },
@@ -6561,25 +6626,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
         "rest": "15",
-        "reps": "10"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6587,12 +6639,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Manual Hamstring Curls",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "35",
+        "intr": "45",
         "rest": "15",
-        "reps": "10"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6600,38 +6652,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Handstand Push Up",
+        "name": "Pull Cords",
         "type": "main_up",
         "rnds": "3",
         "intr": "40",
         "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Handstand Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "10"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -6645,6 +6671,162 @@ var workout_list = [
         "intr": "45",
         "rest": "15",
         "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
       },
       {
         "name": "Rest",
@@ -6665,12 +6847,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Jumps",
+        "name": "Burpees",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "10"
       },
       {
         "name": "Rest",
@@ -6691,12 +6873,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Jumps",
+        "name": "Burpees",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": "10"
       },
       {
         "name": "Rest",
@@ -6730,10 +6912,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -6756,10 +6938,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -6782,90 +6964,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Push Up Plank Hold",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
       },
       {
         "name": "Rest",
@@ -6990,6 +7094,110 @@ var workout_list = [
         "reps": ":15"
       },
       {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Planks",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Supermans",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "20",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
         "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
@@ -7035,110 +7243,6 @@ var workout_list = [
         "intr": "45",
         "rest": "15",
         "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Adrians",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "25",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "V-Ups/Elevated Crunches",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "50",
-        "rest": "15",
-        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -7172,12 +7276,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Russian Twists",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7185,12 +7289,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Russian Twists",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7198,12 +7302,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Russian Twists",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7211,12 +7315,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Russian Twists",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7224,12 +7328,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -7237,12 +7341,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -7250,12 +7354,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -7263,12 +7367,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -7315,12 +7419,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7328,12 +7432,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7341,12 +7445,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7354,12 +7458,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7372,12 +7476,12 @@ var workout_list = [
     "date": "2020-04-04T14:00:00+00:00",
     "workout": [
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -7385,12 +7489,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -7398,12 +7502,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -7411,12 +7515,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -7424,12 +7528,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "30"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -7437,12 +7541,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "30"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -7450,38 +7554,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Side Crunches",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Side Crunches",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7489,12 +7567,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7502,12 +7580,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7515,12 +7593,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
+        "name": "Planks",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -7580,12 +7658,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7593,12 +7671,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7606,12 +7684,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7619,12 +7697,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7710,12 +7788,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7723,12 +7801,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7736,12 +7814,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7749,12 +7827,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -7845,12 +7923,12 @@ var workout_list = [
     "date": "2020-04-04T21:00:00+00:00",
     "workout": [
       {
-        "name": "Lunges",
+        "name": "Jumping Jacks",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "20"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -7871,12 +7949,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Lunges",
+        "name": "Jumping Jacks",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "20"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -7897,12 +7975,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Lunges",
+        "name": "Jumping Jacks",
         "type": "warmup_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "60",
         "rest": "15",
-        "reps": "20"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -8001,12 +8079,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Wall Sit",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "60",
+        "intr": "45",
         "rest": "15",
-        "reps": "1:00"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -8014,62 +8092,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Straight Arm Pull Down",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Wall Sit",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Wall Sit",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "60",
-        "rest": "15",
-        "reps": "1:00"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
+        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -8092,12 +8118,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Human Pullover",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
         "rest": "15",
-        "reps": "10"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -8118,59 +8144,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squat Hold",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Human Pullover",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
+        "name": "Diamond Push Up",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -8183,38 +8157,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Step Ups",
+        "name": "Single Leg Squat",
         "type": "main_lo",
         "rnds": "3",
-        "intr": "45",
+        "intr": "35",
         "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Step Ups",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
+        "reps": "10 each leg"
       },
       {
         "name": "Rest",
@@ -8248,12 +8196,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "30",
         "rest": "15",
-        "reps": "15"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -8274,38 +8222,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Feet Elevated Push Up",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
-        "intr": "25",
+        "intr": "30",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Single Leg Squat",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10 each leg"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Feet Elevated Push Up",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "25",
-        "rest": "15",
-        "reps": "15"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -8384,6 +8306,162 @@ var workout_list = [
         "intr": "40",
         "rest": "15",
         "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squats",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Human Pullover",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "30",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Jumps",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -8404,12 +8482,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -8417,12 +8495,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -8430,12 +8508,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -8443,12 +8521,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -8456,9 +8534,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -8469,9 +8547,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -8482,9 +8560,9 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Russian Twists",
         "type": "main_ob",
-        "rnds": "3",
+        "rnds": "4",
         "intr": "45",
         "rest": "15",
         "reps": ":45"
@@ -8495,103 +8573,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Rowboats",
-        "type": "main_ab",
+        "name": "Russian Twists",
+        "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Rowboats",
-        "type": "main_ab",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Supermans",
-        "type": "main_bk",
-        "rnds": "4",
-        "intr": "20",
-        "rest": "15",
-        "reps": "30"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -8644,6 +8631,110 @@ var workout_list = [
         "intr": "45",
         "rest": "15",
         "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Adrians",
+        "type": "main_bk",
+        "rnds": "4",
+        "intr": "25",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Toe Touches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Toe Touches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Toe Touches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "30"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Toe Touches",
+        "type": "main_ab",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -8677,12 +8768,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": ":45"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -8690,12 +8781,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": ":45"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -8703,38 +8794,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Russian Twists",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8742,12 +8807,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8755,12 +8820,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8768,12 +8833,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "50",
         "rest": "15",
-        "reps": "30"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8820,12 +8885,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -8833,12 +8898,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -8846,25 +8911,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Sit Up Hold",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "3",
+        "intr": "45",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
+        "reps": ":45"
       },
       {
         "name": "Rest",
@@ -8955,12 +9007,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "50",
         "rest": "15",
-        "reps": ":45"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8968,12 +9020,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "50",
         "rest": "15",
-        "reps": ":45"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8981,12 +9033,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "50",
         "rest": "15",
-        "reps": ":45"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -8994,12 +9046,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "V-Ups/Elevated Crunches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "50",
         "rest": "15",
-        "reps": ":45"
+        "reps": "10/20"
       },
       {
         "name": "Rest",
@@ -9059,12 +9111,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9072,12 +9124,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9085,12 +9137,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9098,12 +9150,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "V-Ups/Elevated Crunches",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "50",
+        "intr": "30",
         "rest": "15",
-        "reps": "10/20"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9189,10 +9241,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -9202,10 +9254,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -9215,10 +9267,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -9228,10 +9280,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Toe Touches",
+        "name": "Rowboats",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "30",
+        "intr": "45",
         "rest": "15",
         "reps": "30"
       },
@@ -9280,12 +9332,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9293,12 +9345,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9306,12 +9358,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9319,12 +9371,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Russian Twists",
+        "name": "Side Crunches",
         "type": "main_ob",
         "rnds": "4",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -9493,7 +9545,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Calf Raises",
+        "name": "Squat Hold",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
@@ -9510,136 +9562,6 @@ var workout_list = [
         "type": "main_up",
         "rnds": "3",
         "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Calf Raises",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Up Plank Hold",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Calf Raises",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": ":45"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Push Up Plank Hold",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "45",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squats",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squats",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Squats",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "30"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Inverted Row",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "30",
         "rest": "15",
         "reps": "20"
       },
@@ -9655,6 +9577,214 @@ var workout_list = [
         "intr": "45",
         "rest": "15",
         "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Squat Hold",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": ":45"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Push Up Plank Hold",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Manual Hamstring Curls",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "35",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Handstand Push Up",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Burpees",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "10"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Pull Cords",
+        "type": "main_up",
+        "rnds": "3",
+        "intr": "40",
+        "rest": "15",
+        "reps": "20"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Step Ups",
+        "type": "main_lo",
+        "rnds": "3",
+        "intr": "45",
+        "rest": "15",
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -9675,12 +9805,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Hold",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -9701,12 +9831,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Squat Hold",
+        "name": "Step Ups",
         "type": "main_lo",
         "rnds": "3",
         "intr": "45",
         "rest": "15",
-        "reps": ":45"
+        "reps": "20"
       },
       {
         "name": "Rest",
@@ -9740,7 +9870,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -9766,7 +9896,7 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
@@ -9792,88 +9922,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Diamond Push Up",
+        "name": "Inverted Row",
         "type": "main_up",
         "rnds": "3",
         "intr": "30",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
-        "rest": "15",
-        "reps": "20"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Manual Hamstring Curls",
-        "type": "main_lo",
-        "rnds": "3",
-        "intr": "35",
-        "rest": "15",
-        "reps": "10"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Straight Arm Pull Down",
-        "type": "main_up",
-        "rnds": "3",
-        "intr": "40",
         "rest": "15",
         "reps": "20"
       },
@@ -9896,12 +9948,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -9909,12 +9961,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -9922,12 +9974,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -9935,12 +9987,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Bicycles",
+        "name": "Sit Ups",
         "type": "warmup_ab",
         "rnds": "4",
         "intr": "50",
         "rest": "15",
-        "reps": "60"
+        "reps": "40"
       },
       {
         "name": "Rest",
@@ -10052,10 +10104,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -10065,10 +10117,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -10078,10 +10130,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -10091,10 +10143,10 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Adrians",
+        "name": "Supermans",
         "type": "main_bk",
         "rnds": "4",
-        "intr": "25",
+        "intr": "20",
         "rest": "15",
         "reps": "30"
       },
@@ -10104,12 +10156,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -10117,12 +10169,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -10130,12 +10182,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -10143,12 +10195,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Planks",
+        "name": "Toe Touches",
         "type": "main_ab",
         "rnds": "4",
-        "intr": "45",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "30"
       },
       {
         "name": "Rest",
@@ -10182,12 +10234,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -10195,12 +10247,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -10208,12 +10260,25 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Sit Up Hold",
+        "name": "Windmills",
         "type": "main_ob",
-        "rnds": "3",
-        "intr": "45",
+        "rnds": "4",
+        "intr": "30",
         "rest": "15",
-        "reps": ":45"
+        "reps": "15"
+      },
+      {
+        "name": "Rest",
+        "intr": "15",
+        "reps": ":15"
+      },
+      {
+        "name": "Windmills",
+        "type": "main_ob",
+        "rnds": "4",
+        "intr": "30",
+        "rest": "15",
+        "reps": "15"
       },
       {
         "name": "Rest",
@@ -10312,12 +10377,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "15"
+        "reps": "1:00"
       },
       {
         "name": "Rest",
@@ -10325,38 +10390,12 @@ var workout_list = [
         "reps": ":15"
       },
       {
-        "name": "Windmills",
+        "name": "Penguins",
         "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
+        "rnds": "2",
+        "intr": "60",
         "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
-      },
-      {
-        "name": "Rest",
-        "intr": "15",
-        "reps": ":15"
-      },
-      {
-        "name": "Windmills",
-        "type": "main_ob",
-        "rnds": "4",
-        "intr": "30",
-        "rest": "15",
-        "reps": "15"
+        "reps": "1:00"
       },
       {
         "name": "Rest",

@@ -143,7 +143,7 @@ function workoutCompleted(){
 
    hide = function(){
      confetti_div.style.display = "none";
-      init();
+      getTime();
    };
   show();
 }
