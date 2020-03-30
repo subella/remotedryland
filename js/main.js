@@ -48,6 +48,11 @@ function init(current_utc_time){
     }
     startWorkout(workout, current_set, current_set_time);
   }else{
+    var hours = Math.floor((workout_total_time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((workout_total_time % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((workout_total_time % (1000 * 60)) / 1000);
+    document.getElementById("next").innerHTML = "Next Workout Length: " + hours + "h "
+        + minutes + "m " + seconds + "s ";
     startCountdown(workout, workout_date);
   }
 }
@@ -81,7 +86,7 @@ function startWorkout(workout, current_set, current_set_time){
         document.getElementById("set").innerHTML = "Workout Completed!! :D";
         document.getElementById("timer").innerHTML = "";
         document.getElementById("next").innerHTML = "";
-        init();
+        workoutCompleted();
       }
     }else{
       document.getElementById("timer").innerHTML = Math.floor(count);
@@ -111,8 +116,8 @@ function startCountdown(workout, workout_date){
         + minutes + "m " + seconds + "s ";
 
         if (distance < 0) {
-        clearInterval(cnt);
-        startWorkout(workout, 0, workout[0]["intr"]);
+          clearInterval(cnt);
+          startWorkout(workout, 0, workout[0]["intr"]);
         }
         current_date_global.setSeconds(current_date_global.getSeconds() +1);
         }, 1000);
@@ -124,12 +129,25 @@ function printWorkout(workout){
   var set = ""; 
   for (var i = 0; i < workout.length; i++){
     set += "<br>" + workout[i]["reps"] + " " + workout[i]["name"];
-    //set += "&nbsp&nbsp&nbsp&nbsp&nbsp";
     }
     var newWindow = window.open();
     newWindow.document.write(set);
-    //document.getElementById("print").innerHTML = set; 
 }
+
+function workoutCompleted(){
+  confetti_div = document.getElementById("confetti_div");
+  show = function(){
+    confetti_div.style.display = "block";
+    setTimeout(hide, 5000); // 5 seconds
+   },
+
+   hide = function(){
+     confetti_div.style.display = "none";
+      getTime();
+   };
+  show();
+}
+
 
 const getTime = async () => {
   const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
