@@ -14,7 +14,7 @@ var a = 1
 //     var numberOfExercises = document.getElementById("exercises" + a).value;
 //     for (i = 1; i<= numberOfExercises; i++) {
 //       array.push({
-//         exercise: 
+//         exercise:
 //       })
 //     }
 //   }
@@ -61,7 +61,7 @@ function addExercises(object) {
     reps_input.id = "set"+a+"reps"+(i+1);
     reps_input.type = "text";
     // var btn = document.createElement("BUTTON");   // Create a <button> element
-    // btn.innerHTML = "SAVE EXERCISE";  
+    // btn.innerHTML = "SAVE EXERCISE";
     // btn.onclick = function() {saveExercise(exercise_input.id, intr_input.id, reps_input.id)};
     para.appendChild(exercise_text);
     para.appendChild(exercise_input);
@@ -117,18 +117,10 @@ function submitJSON() {
         var exerciseName =document.getElementById(exerciseID).value;
         var interval =document.getElementById(intrID).value;
         var repititions =document.getElementById(repsID).value;
-        array.push({
-          name: exerciseName,
-          intr: interval,
-          reps: repititions
-        });
-        array.push({
-          name: "rest",
-          intr: "15",
-          reps: ":15"
-        });
+        array.push(`{name: ${exerciseName}, intr: ${interval}, reps: ${repititions}}`);
+        array.push(`{name: rest, intr: 15, reps: :15}`);
       }
     }
   }
-  console.log(array);
+  window.open(`mailto:subella@mit.edu?subject=Workout%20Submission&body=[${array}]`);
 }
