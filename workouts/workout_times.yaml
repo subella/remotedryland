@@ -11,10 +11,10 @@ workout_list:
         - Friday
         - Saturday
       type: core
-  
+
   # Afternoon Workout
   - workout:
-      time: "21:00"
+      time: "20:00" #4 EST
       days:
         - Sunday
         - Monday
