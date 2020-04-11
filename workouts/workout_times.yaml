@@ -11,7 +11,7 @@ workout_list:
         - Friday
         - Saturday
       type: core
-  
+
   # Afternoon Workout
   - workout:
       time: "20:15"
