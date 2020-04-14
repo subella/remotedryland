@@ -5,36 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="../css/main.css">
 
 <body>
 
-
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-middle">
-    <h1 class="big_text w3-animate-top" id="set"></h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <h1 class="big_text" id="timer"></h1>
-    <p class="small w3-center" id="next"></p>
-  </div>
-
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
+  <a href="../index.html">Home</a>
   <a href="https://mit.zoom.us/j/6339068206" target="_blank">Zoom Link</a>
-  <a href="html/input.html">Submit a Workout</a>
+  <a href="input.html">Submit a Workout</a>
   <a id="next_workout" href="javascript:void(0)">View Next Workout</a>
-  <a id="stats" href="html/stats.html">View My Stats!</a>
+  <a id="stats" href="javascript:void(0)">View My Stats!</a>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScVvsPwO8MMLVKEeP4O3QSbN-XhiiNJIynUHo-wHRSkvSAHYw/viewform?usp=sf_link">Submit Suggestions</a>
 </div>
 
-<audio id="ding" src="audio/ding.mp3" preload="auto"></audio>
-
 <button class="button" onClick="openNav()">Click me!</button>
 
+<h1 class="big_text w3-animate-top" id="set">Stats</h1>
+ <ul id="stats_list">
+</ul> 
 </div>
-<div id = "confetti_div" style="display:none" class="overlay"></div>
+
+
 
 <script>
 function openNav() {
@@ -48,9 +41,20 @@ function closeNav() {
 
 
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-<script type="text/javascript" src="workouts/workout_list.js?version=2.1"></script>
-<script type="text/javascript" src="js/user_stats.js?version=2.1"></script>
-<script type="text/javascript" src="js/main.js?version=2.1"></script>
+<script type="text/javascript" src="../js/user_stats.js?version=2.1"></script>
+
+<script>
+  var arr = user.getWorkoutArray();
+  
+  var ul = document.getElementById("stats_list");
+  for( var i = 0; i < arr.length; i++ )
+  { 
+    o = arr[i];
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode(o));
+    ul.appendChild(li);     
+  } 
+</script>
 
 </body>
 </html>

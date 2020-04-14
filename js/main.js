@@ -71,6 +71,7 @@ function startWorkout(workout, current_set, current_set_time){
     count --;
     if (count < 0) {
       document.getElementById('ding').play();
+      user.addRep(workout[current_set]["name"], workout[current_set]["reps"]);
       if (+current_set + 1 < workout.length){
         current_set = +current_set+1;
         count = +workout[current_set]["intr"]-1;
@@ -143,7 +144,8 @@ function workoutCompleted(){
 
    hide = function(){
      confetti_div.style.display = "none";
-      getTime();
+      //getTime();
+      window.open("html/stats.html");
    };
   show();
 }
