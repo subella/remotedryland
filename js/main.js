@@ -152,6 +152,8 @@ function workoutCompleted(){
 
 
 const getTime = async () => {
+  user.removeAllCookies();
+  user.removeCookie("Adrians");
   const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
   const date = await response.json(); //extract JSON from the http response
   // do something with myJson

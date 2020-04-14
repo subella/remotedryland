@@ -61,9 +61,12 @@ class User{
     this.setStat(cname, val);
   }
   
+  removeCookie(cname){
+    Cookies.remove(cname);
+  }
   removeAllCookies(){
     Object.keys(Cookies.get()).forEach(function(cookieName) {
-        Cookies.remove(cookieName);
+          removeCookie(cookieName);
         });
   }
 

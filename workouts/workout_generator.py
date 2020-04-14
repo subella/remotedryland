@@ -55,8 +55,10 @@ def generateWorkout(workout_type):
         if len(sets) >0: 
             for k in range(int(sets[0]["rnds"])):
                 for p in range(len(sets)):
+                    sets[p]["intr"]=1
                     workout.append(sets[p])         
-                    rest["intr"] = sets[p]["rest"]
+                    #rest["intr"] = sets[p]["rest"]
+                    rest["intr"] = 1
                     rest["reps"] = ":"+sets[p]["rest"]
                     workout.append(rest)         
     return workout
