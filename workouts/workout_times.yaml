@@ -27,7 +27,7 @@ workout_list:
 
   # Power Hour
   - workout:
-      time: "21:35"
+      time: "22:00"
       days:
         - Friday
       type: power_hour
