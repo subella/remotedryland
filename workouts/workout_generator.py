@@ -43,6 +43,12 @@ def generateWorkout(workout_type):
     workout_data = json.loads(jsondata)
     workout = []
     framework = full_body_framework if workout_type=="full_body" else core_framework
+    if workout_type =="power_hour":
+        p_hr = workout_data[-1]
+        for i in range(int(p_hr["rnds"])):
+            workout.append(p_hr)
+        return workout
+
     rest = {"name":"Rest", "intr":10, "reps":10} 
     for exercise in range(len(framework)):
         sets=[] 

@@ -24,3 +24,10 @@ workout_list:
         - Friday
         - Saturday
       type: full_body
+
+  # Power Hour
+  - workout:
+      time: "21:35"
+      days:
+        - Friday
+      type: power_hour

@@ -267,7 +267,14 @@
      "rnds":"4",
      "intr":"30",
      "rest":"15",
-     "reps":"15"}
+     "reps":"15"},
+
+    {"name":"Take a shot",
+     "type":"power_hour",
+     "rnds":"60",
+     "intr":"60",
+     "rest":"15",
+     "reps":""}
 ]
 
 
